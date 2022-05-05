@@ -1,0 +1,168 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+@font-face{
+    font-family: fuente1;
+    src: url(/Fuentes/PatrickHand-Regular.ttf);
+}
+
+@font-face{
+    font-family: Ubuntu1;
+    src: url(/Fuentes/Ubuntu-Medium.ttf);
+}
+
+@font-face{
+    font-family: Ubuntu2;
+    src: url(/Fuentes/Ubuntu-Regular.ttf);
+}
+
+@font-face{
+    font-family: cursiva1;
+    src: url(/Fuentes/Cursiva1.ttf);
+}
+
+body{
+    font-family:Ubuntu2;
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background: #2C9218;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+h1{
+    font-size: 38px;
+    text-align: center;
+    padding: 15px;
+    font-family: cursiva1;
+}
+
+.contenedor1{
+    width: 80%;
+    height: 100px;
+    margin: auto;
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 10px 10px #aaaaaa;
+    border-radius: 10px;
+}
+
+.subtitulo{
+    text-align: center;
+    font-size: 2.8vw;
+    font-family: cursiva1;
+}
+
+.contenedor2{
+    width: 90%;
+    height: 450px;
+    box-shadow: 10px 10px 10px 10px #aaaaaa;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.nombre{
+    width: 33%;
+    height: 12%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.nombre p{
+    text-align: center;
+    font-family: cursiva1;
+    font-size: 32px;
+
+}
+
+.box{
+    text-align: center;
+    width: 32%;
+    height: 70%;
+    position: relative;
+    overflow: hidden;
+}
+
+.box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.boxinfo{
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    overflow: hidden;
+    transform: translateY(130%);
+}
+
+.boxinfo p{
+    color: white;
+    position: absolute;
+    padding: 8px;
+    text-align: justify;
+    font-size: 28px;
+    margin-left: 20px;
+    
+    
+}
+
+.box:hover .boxinfo{
+    transform: translateY(-90%);
+    background-color: rgba(0,0,0, 0.7);
+    transition: .5s ease-in-out;
+    overflow: hidden;
+}
+
+
+.contenedor3{
+    width: 80%;
+    height: 60%;
+    margin: auto;
+    margin-top: 80px;
+    box-shadow: 10px 10px 10px 10px #aaaaaa;
+    border-radius: 10px;
+    text-align: justify;
+    padding: 20px;
+}
+
+.textoinfo1{
+    font-size: 1.8vw;
+}
+
+footer{
+    margin: auto;
+    width: 100%;
+    height: 60px;
+    margin-top: 60px;
+    background-color: #2C9218;
+}
+
+footer a{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgba(0,0,0, 0.7);
+    font-family: sans-serif;
+}

@@ -1,0 +1,101 @@
+*{
+    margin:0;
+    padding: 0;
+    box-sizing: border-box;
+    
+}
+
+@font-face{
+    font-family: fuente1;
+    src: url(/Fuentes/PatrickHand-Regular.ttf);
+}
+
+@font-face{
+    font-family: Ubuntu1;
+    src: url(/Fuentes/Ubuntu-Medium.ttf);
+}
+
+@font-face{
+    font-family: Ubuntu2;
+    src: url(/Fuentes/Ubuntu-Regular.ttf);
+}
+
+@font-face{
+    font-family: cursiva1;
+    src: url(/Fuentes/Cursiva1.ttf);
+}
+body{
+    
+}
+
+header{
+    width: 100%;
+    height: 70px;
+    background: #2C9218;
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 100;
+}
+
+h1{
+    font-size: 38px;
+    text-align: center;
+    padding: 15px;
+    font-family: cursiva1;
+}
+
+
+.contenedor{
+    width: 80%;
+    height: 20%;
+    margin: auto;
+    margin-top: 80px;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 10px 10px 10px 10px #aaaaaa;
+    border-radius: 10px;
+    font-family: Ubuntu1;
+    font-size: 2vw;
+    text-align: justify;
+    
+}
+
+.subtitulo{
+    width: 50%;
+    height: 100px;
+    margin: auto;
+    margin-top: 110px;
+    text-align: center;
+    box-shadow: 10px 10px 10px 10px #aaaaaa;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 2.8vw;
+    font-family: cursiva1;
+}
+
+a{
+    text-decoration: none;
+}
+
+footer{
+    margin: auto;
+    width: 100%;
+    height: 60px;
+    margin-top: 60px;
+    background-color: #aaaaaa;
+}
+
+footer a{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgba(0,0,0, 0.7);
+    font-family: sans-serif;
+}
