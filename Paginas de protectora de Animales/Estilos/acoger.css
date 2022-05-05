@@ -1,0 +1,120 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face{
+    font-family: cursiva1;
+    src: url(/Fuentes/Cursiva1.ttf);
+}
+
+header{
+    width: 100%;
+    height: 100px;
+    background-color: green;
+    font-family: cursiva1;
+}
+
+.subtitulo{
+    margin: auto;
+    margin-top: 30px;
+    text-align: center;
+    font-size: 35px;
+    font-family: cursiva1;
+    width: 100%;
+}
+
+h1{
+    text-align: center;
+    margin: auto;
+    font-size: 50px;
+    color: white;
+    padding-top: 20px;
+}
+
+.contenedor{
+    width: 90%;
+    height: 450px;
+    box-shadow: 10px 10px 10px 10px #aaaaaa;
+    border-radius: 8px;
+    margin: auto;
+    margin-top: 30px;
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: space-around;
+    align-content: center;
+    padding: 5px;
+    overflow: hidden;
+}
+
+.nombre{
+    width: 33%;
+    height: 12%;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+.nombre p{
+    text-align: center;
+    font-family: cursiva1;
+    font-size: 32px;
+
+}
+
+.box{
+    text-align: center;
+    width: 32%;
+    height: 70%;
+    position: relative;
+    overflow: hidden;
+}
+
+.box img{
+    width: 100%;
+    height: 100%;
+    border-radius: 8px;
+}
+
+.boxinfo{
+    width: 100%;
+    height: 90%;
+    position: absolute;
+    overflow: hidden;
+    transform: translateY(130%);
+}
+
+.boxinfo p{
+    color: white;
+    position: absolute;
+    padding: 8px;
+    text-align: justify;
+    font-size: 28px;
+    margin-left: 20px;
+    
+    
+}
+
+.box:hover .boxinfo{
+    transform: translateY(-90%);
+    background-color: rgba(0,0,0, 0.7);
+    transition: .5s ease-in-out;
+    overflow: hidden;
+}
+
+footer{
+    margin: auto;
+    width: 100%;
+    height: 60px;
+    margin-top: 60px;
+    background-color: #aaaaaa;
+}
+
+footer a{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    text-decoration: none;
+    font-size: 30px;
+    color: rgba(0,0,0, 0.7);
+    font-family: sans-serif;
+}
